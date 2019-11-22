@@ -4,10 +4,12 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
+#include <omp.h>
 #define SEED 35791246
 
 int main(int argc, char** argv)
 {
+   double start = omp_get_wtime();
    int niter=1000000000;
    double x,y;
    int i,count=0; /* # of points in the 1st quadrant of unit circle */
@@ -25,6 +27,7 @@ int main(int argc, char** argv)
       if (z<=1) count++;
       }
    pi=(double)count/niter*4;
-   printf("# of trials= %d , estimate of pi is %g \n",niter,pi);
+   double total = omp_get_wtime() - start;
+   printf("# of trials= %d , estimate of pi is %g , time taken = %f \n",niter,pi,total);
    return 0;
 }

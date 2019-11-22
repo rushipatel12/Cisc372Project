@@ -1,4 +1,4 @@
-serial:
+omp:
 	gcc -fopenmp monte_pi.c -o monte_pi
 
 run:
