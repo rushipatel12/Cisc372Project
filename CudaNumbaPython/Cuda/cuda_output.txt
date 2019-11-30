@@ -1,0 +1,3 @@
+C:\PythonStuff>python montecarlocuda.py
+pi: 3.1416733
+TIME ELAPSED: 0.958250600 s

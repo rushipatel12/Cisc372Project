@@ -1,0 +1,4 @@
+C:\PythonStuff>python montecarlo.py 15000000
+Approximating Pi!
+TIME ELAPSED: 7.188489100 s
+this is our approximation of pi based on 15000000 randomly generated points: 3.14211466666666661141
