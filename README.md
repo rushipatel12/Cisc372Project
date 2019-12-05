@@ -18,7 +18,9 @@ make ACC
 make ACC
 
 This code was designed to run on CISC372 VM 
+
+
 pgc++ 19.4.0 compiler for OpenACC
 gcc 7.4.0 compiler for OpenMP
 
-Python Cuda code is in the CudaNumbaPython folder
+*Python Cuda code is in the CudaNumbaPython folder*
