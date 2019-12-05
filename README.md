@@ -5,16 +5,20 @@
 *OpenMP and OpenACC code in MonteCarlo Folder*
 
 **To compile OpenMP code:**
+
 make OPM
 
 **To run OpenMP code:**
+
 make run
 
 
 **To compile OpenACC code:**
+
 make ACC
 
 **To run OpenACC code:**
+
 make ACC
 
 This code was designed to run on CISC372 VM 
